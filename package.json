@@ -1,6 +1,6 @@
 {
-  "name": "react-input-autosize",
-  "version": "2.2.1",
+  "name": "@flash1293/react-input-autosize",
+  "version": "2.2.1-react16fix",
   "description": "Auto-resizing Input Component for React",
   "main": "lib/AutosizeInput.js",
   "js:next": "dist/react-input-autosize.es.js",
@@ -51,7 +51,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "peerDependencies": {
-    "react": "^0.14.9 || ^15.3.0 || ^16.0.0-rc || ^16.0"
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0-rc || >=16.0"
   },
   "scripts": {
     "build": "NODE_ENV=production nps build",
